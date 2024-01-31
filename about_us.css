@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Carme', sans-serif;
+    text-decoration: none;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.back
+{
+    overflow-x: hidden;
+}
+.img3
+{
+    position: absolute;
+    top: 20px
+}
+.img111
+{
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+.navbar
+{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    
+    
+    
+}
+.navbar ul span a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        padding: 50px;
+    
+        transition:0.2s;
+    
+}
+.navbar ul span a:hover
+{
+    font-size: larger;
+    color: yellow ;
+    letter-spacing:0.1cm;
+    transition:0.5s;
+}
+
+
+.navbar span{
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Carme', sans-serif;
+    font-weight: bold;                        
+    padding-bottom: 41px;
+    padding-top: 18px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 4em rgb(0, 0, 0);
+   font-weight: 900;
+   
+  
+}
+.shad
+{
+    position: absolute;
+    background:linear-gradient(rgb(0, 0, 0),transparent);
+    width: 110%;
+    height: 100px;
+    top:-20px;
+    left:-20px;
+}
+.vd{
+    position: absolute;
+    
+    height: -1000px;
+    width: -1000px;
+}
+.img1{
+    position: absolute;
+    width: 835px;
+    height: 703x;
+    align-content: center;
+    top: 0px;
+    left: 0px;
+}
+.img2{
+    position: absolute;
+    left: 835px;
+    height: 793px;
+    width: 700px;
+    top: 0px;
+}
+
+
+
+.pan
+{
+    position:absolute;
+    top:790px;
+  background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 150px; 
+}
+
+.img8
+{
+    position: absolute;
+    top:850px;
+    left: 630px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img8:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img9
+{
+    position: absolute;
+    top:850px;
+    left: 690px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img9:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img10
+{
+    position: absolute;
+    top:850px;
+    left: 750px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img10:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img11
+{
+    position: absolute;
+    top:850px;
+    left: 810px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img11:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img12
+{
+    position: absolute;
+    top:847px;
+    left: 870px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img12:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img13
+{
+    position: absolute;
+    top:900px;
+    left: 710px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+::-webkit-scrollbar{
+	width:7px;
+	background-color:transparent;
+	}
+ 
+::-webkit-scrollbar-track{
+	box-shadow: 0 0 5px rgba(0,233,253,1.00);
+	}
+::-webkit-scrollbar-thumb{
+	background-color:#00ffc3;
+	border-left:2px solid #ffffff;
+    border-radius: 20px;
+
+}
