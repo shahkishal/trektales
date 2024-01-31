@@ -1,0 +1,25 @@
+<html>
+
+        <script>
+            function codexmldoc()
+            {
+                var http=new XMLHttpRequest();
+                http.onreadystatechange=function()
+                {
+                    if(this.readyState==4 && this.status==200)
+                    {
+                        document.getElementById("demo").innerHTML=http.responseText;
+                    }
+                };
+                http.open("GET","http_into.txt",true);
+                http.send();
+            }     
+        </script>
+   
+    <body>
+        <h2> using XML HTTP request object</h2>
+        <div id="demo">
+            <button type="button" onclick="codexmldoc()">Change Content</button>
+        </div>
+    </body>
+</html>

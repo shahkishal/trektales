@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Carme', sans-serif;
+    text-decoration: none;
+}
+.background{
+    position: absolute;
+    border-radius: 0px;
+    opacity: 0.8;
+    filter: brightness(1.97);
+}
+.bg1{
+    position: absolute;
+    top: 10px;
+    left: 405px;
+    width: 750px;
+    height: 750px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.login{
+    font-family: 'Carme', sans-serif;
+}
+.t1{
+    position: absolute;
+    top: 140px;
+    left: 647px;
+    color: #205E61;
+    font-family: 'Carme', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    transition: 0.3s;
+    transform: translate(50%,-50%);
+    text-shadow: 1px 1px 1px #919191,    
+    1px 10px 6px rgba(16,16,16,0.3),
+    1px 14px 10px rgba(16,16,16,0.1),
+    1px 19px 35px rgba(16,16,16,0.1),
+    1px 28px 60px rgba(16,16,16,0.3);
+}
+.t2{
+    position: absolute;
+    top: 180px;
+    left: 673px;
+    font-size: 25px;
+    font-family: 'Carme', sans-serif;
+    font-weight: 235;
+    text-align: center;
+    color: black;
+}
+.a{
+    position: absolute;
+    top: 260px;
+    left: 637px;
+    font-size: 18px;
+    font-family: 'Carme', sans-serif;
+    font-weight: 250;
+    background: transparent;
+    text-align: center;
+    border-color: black;
+}
+.aa{
+    position: absolute;
+    top: 310px;
+    left: 637px;
+    font-size: 18px;
+    font-family: 'Carme', sans-serif;
+    font-weight: 250;
+    background: transparent;
+    text-align: center;
+    border-color: black;
+}
+.btnn{
+    position: absolute;
+    top: 400px;
+    left: 637px;
+    font-size: 18px;
+    height: 4%;
+    width: 17%;
+    font-family: 'Carme', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to bottom left, #edb69e 40%, #d19278 100%);
+    border-color: black;
+    display: block;
+    border-color: linear-gradient(to bottom left, #edb69e 40%, #d19278 100%) ;
+}
+@keyframes glowing {
+    0% {
+        background-color: #9c6750;
+        box-shadow: 0 0 5px #9c6750;
+    }
+    50% {
+        background-color: #9c6750;
+        box-shadow: 0 0 20px #9c6750;
+    }
+    100% {
+        background-color: #9c6750;
+        box-shadow: 0 0 5px #9c6750;
+    }
+}
+.btnn{
+    animation: glowing 1300ms infinite;
+  }
+.fp{
+    position: absolute;
+    top: 345px;
+    left: 785px;
+    font-size: 14.5px;
+    font-family: 'Carme', sans-serif;
+    font-weight: 350;
+    color: black;
+}
+.reg{
+    position: absolute;
+    top: 440px;
+    left: 640px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Carme', sans-serif;
+    font-weight: 350;
+    color: black;
+}

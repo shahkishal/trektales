@@ -1,0 +1,174 @@
+.body
+{
+    overflow:hidden;
+}
+.background img
+{
+    position: absolute;
+   filter: brightness(50%);
+    top: 0px;
+    left: 0px;
+}
+.heading
+{
+    position: absolute;
+    left: 430px; 
+    font-family: 'Carme', sans-serif;
+    top:-20;
+    font-size: 150;
+    color:yellow;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    letter-spacing: 5px;
+    
+}
+.shad
+{
+    position: absolute;
+    background:linear-gradient(rgb(0, 0, 0),transparent);
+    width: 110%;
+    height: 200px;
+    top:-50px;
+    left:-20px;
+    font-weight: 900;
+}
+
+.button1
+{
+    transition: 400ms;
+    position: absolute;
+    text-decoration: none;
+    width: 701px;
+    height: 300px;
+    font-size: 60;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+    box-shadow: -1px -1px 0px 8px rgb(0, 0, 0);
+    top: 140px;
+    left: 10px;
+    font-family: 'Carme', sans-serif;
+    background-image: url(hotel.jpg);
+    
+    color:rgb(255, 255, 255);
+    border: rgb(0, 0, 0);
+    padding-top: 200px;
+    cursor: pointer;
+    filter:opacity(90%);
+    letter-spacing: 35px;
+}
+.button1:hover
+{
+    margin-left: 90px;
+   padding-left: 65px;
+   letter-spacing: 2px;
+    font-size: 65;
+    transition: 0.7s;
+    width: 550px;
+    box-shadow: -1px -1px 0px 10px #8BF5FA;
+    color: #8BF5FA;
+    border-radius:70px;
+    filter:opacity(100%);
+}
+.button2
+{
+    position: absolute;
+    text-decoration: none;
+    width: 701px;
+    transition: 400ms;
+    height: 300px;
+    font-size: 60;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+    box-shadow: -1px -1px 0px 8px rgb(0, 0, 0);
+    top: 455px;
+    left: 10px;
+    font-family: 'Carme', sans-serif;
+    background-image: url(flight.jpg);
+    color:rgb(255, 255, 255);
+    border: rgb(0, 0, 0);
+    padding-top: 200px;
+    cursor: pointer;
+    letter-spacing: 35px;
+    filter: opacity(90%);
+}
+.button2:hover
+{
+    filter: opacity(100%);
+    margin-left: 50px;
+   padding-left: 65px;
+   letter-spacing: 2px;
+    font-size: 65;
+    transition: 0.7s;
+    width: 550px;
+    box-shadow: -1px -1px 0px 10px #8BF5FA;
+    color: #8BF5FA;
+    border-radius:70px;
+}
+.button3
+{
+    position: absolute;
+    text-decoration: none;
+    width: 800px;
+    height: 300px;
+    font-size: 60;
+    transition: 400ms;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+    box-shadow: -1px -1px 0px 8px rgb(0, 0, 0);
+    top: 455px;
+    right: 10px;
+    font-family: 'Carme', sans-serif;
+    background-image: url(food.jpeg);
+    color:rgb(255, 255, 255);
+    border: rgb(0, 0, 0);
+    padding-top: 200px;
+    cursor: pointer;
+    letter-spacing: 35px;
+    padding-left: 100px;
+    filter: opacity(90%);
+}
+.button3:hover
+{
+    filter: opacity(100%);
+    margin-right: 120px;
+   padding-left: 65px;
+   letter-spacing: 2px;
+    font-size: 65;
+    transition: 0.7s;
+    width: 550px;
+    box-shadow: -1px -1px 0px 10px #8BF5FA;
+    color: #8BF5FA;
+    border-radius:70px;
+}
+.button4
+{
+    position: absolute;
+    text-decoration: none;
+    width: 800px;
+    height: 300px;
+    transition: 400ms;
+    font-size: 60;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+    box-shadow: -1px -1px 0px 8px rgb(0, 0, 0);
+    border: 20px;
+    top: 140px;
+    right: 10px;
+    font-family: 'Carme', sans-serif;
+    background-image: url(guide.jpg);
+    color:rgb(255, 255, 255);
+    border: rgb(0, 0, 0);
+    padding-top: 200px;
+    cursor: pointer;
+    letter-spacing: 35px;
+    filter: opacity(90%);
+}
+.button4:hover
+{
+    filter: opacity(100%);
+    margin-right: 120px;
+   padding-left: 65px;
+   letter-spacing: 2px;
+    font-size: 65;
+    transition: 0.7s;
+    width: 550px;
+    box-shadow: -1px -1px 0px 10px #8BF5FA;
+    color: #8BF5FA;
+    border-radius:70px;
+
+}

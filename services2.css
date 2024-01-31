@@ -1,0 +1,451 @@
+.body
+{
+    overflow-x:hidden;
+}
+.background img
+{
+    position: fixed;
+ 
+    top: 0px;
+    left: 0px;
+    opacity: 85%;
+}
+.navbar
+{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    
+    
+    
+}
+.navbar ul span a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        padding: 50px;
+        transition:0.2s;
+    
+    
+}
+.navbar ul span a:hover
+{
+    font-size: larger;
+    color: yellow ;
+    letter-spacing:0.1cm;
+    transition:0.4s;
+}
+
+
+.navbar span{
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Carme', sans-serif;
+    font-weight: bold;                        
+    padding-bottom: 41px;
+    padding-top: 18px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 4em rgb(0, 0, 0);
+   font-weight: 900;
+   
+  
+}
+.shad
+{
+    position: absolute;
+    background:linear-gradient(rgb(0, 0, 0),transparent);
+    width: 110%;
+    height: 100px;
+    top:-20px;
+    left:-20px;
+}
+.back
+{
+    position: fixed;
+    left: -187px;
+    top: 0px;
+    overflow: hidden;
+    
+}
+.img1
+{
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+.col1
+{
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    height: 340px;
+    
+    background-color:white;
+    opacity: 50%;
+    left: 0px;
+    box-shadow: 5px 5px 9px#000000;
+    text-shadow: 5px 5px 9px#000000;
+}
+.i2 img
+{
+    position: absolute;
+    top: 260px;
+    width: 500px;
+    height: 300px;
+    
+    background-color:white;
+ 
+     left: 10px;
+}
+.i3 img
+{
+    position: absolute;
+    top: 720px;
+    width: 500px;
+    height: 300px;
+    
+    background-color:white;
+ 
+     left: 1125px;
+}
+
+
+.i4 img
+{
+    position: absolute;
+    top: 1220px;
+    width: 500px;
+    height: 300px;
+    
+    background-color:white;
+ 
+     left: 10px;
+}
+
+
+.i5 img
+{
+    position: absolute;
+    top: 1710px;
+    width: 500px;
+    height: 300px;
+    
+    background-color:white;
+ 
+    left: 1125px;
+}
+
+.t1
+{
+    position: absolute;
+    font-family: 'Carme', sans-serif;
+    font-size:140%;
+    width: 900px;
+    left: 580px;
+    top:290px;
+}
+
+.t2
+{
+    position: absolute;
+    font-family: 'Carme', sans-serif;
+    font-size:140%;
+    width: 900px;
+    left: 100px;
+    top:750px;
+}
+.t3
+{
+    position: absolute;
+    font-family: 'Carme', sans-serif;
+    font-size:140%;
+    width: 900px;
+    left: 580px;
+    top:1260px;
+}
+
+.t4
+{
+    position: absolute;
+    font-family: 'Carme', sans-serif;
+    font-size:140%;
+    width: 910px;
+    left: 100px;
+    top:1730px;
+}
+.b1
+{
+    position: absolute;
+    top: 510px;
+    background-color: transparent;
+    width:fit-content;
+    border: 4px solid yellow;
+    font-family: 'Carme', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    left: 1350px;
+    font-size: 15;
+    color:yellow;
+    cursor: pointer;
+    letter-spacing:0.1mm;
+    transition: 0.5s;
+    
+}
+.b1:hover
+{
+    color: #205E61;
+    border: 4px solid #205E61;
+    width: fit-content;
+    letter-spacing:0.2cm;
+    
+    left: 1320px;
+    transition: 0.5s;
+}
+
+.b2
+{
+    position: absolute;
+    top: 905px;
+    background-color: transparent;
+    width:fit-content;
+    border: 4px solid yellow;
+    font-family: 'Carme', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    left: 100px;
+    font-size: 15;
+    color:yellow;
+    cursor: pointer;
+    letter-spacing:0.1mm;
+    transition: 0.5s;
+    
+}
+.b2:hover
+{
+    color: #205E61;
+    border: 4px solid #205E61;
+    width: fit-content;
+    letter-spacing:0.2cm;
+    
+    left: 70px;
+    transition: 0.5s;
+}
+
+.b3
+{
+    position: absolute;
+    top: 1455px;
+    background-color: transparent;
+    width:fit-content;
+    border: 4px solid yellow;
+    font-family: 'Carme', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    left: 1350px;
+    font-size: 15;
+    color:yellow;
+    cursor: pointer;
+    letter-spacing:0.1mm;
+    transition: 0.5s;
+    
+}
+.b3:hover
+{
+    color: #205E61;
+    border: 4px solid #205E61;
+    width: fit-content;
+    letter-spacing:0.2cm;
+    
+    left: 1320px;
+    transition: 0.5s;
+}
+
+.b4
+{
+    position: absolute;
+    top: 1975px;
+    background-color: transparent;
+    width:fit-content;
+    border: 4px solid yellow;
+    font-family: 'Carme', sans-serif;
+    font-weight: 900;
+    height: 50px;
+    left: 100px;
+    font-size: 15;
+    color:yellow;
+    cursor: pointer;
+    letter-spacing:0.1mm;
+    transition: 0.5s;
+    
+}
+.b4:hover
+{
+    color: #205E61;
+    border: 4px solid #205E61;
+    width: fit-content;
+    letter-spacing:0.2cm;
+    
+    left: 70px;
+    transition: 0.5s;
+}
+
+
+.col2
+{
+    position: absolute;
+    top: 700px;
+    width: 100%;
+    height: 340px;
+    
+    background-color:rgb(255, 253, 253);
+    opacity: 50%;
+    left: 0px;
+    box-shadow: 5px 5px 9px#000000;
+    text-shadow: 5px 5px 9px#000000;
+}
+
+
+.col3
+{
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    height: 340px;
+    
+    background-color:rgb(255, 253, 253);
+    opacity: 50%;
+    left: 0px;
+    box-shadow: 5px 5px 9px#000000;
+    text-shadow: 5px 5px 9px#000000;
+
+}
+
+.col4
+{
+    position: absolute;
+    top: 1690px;
+    width: 100%;
+    height: 340px;
+    
+    background-color:rgb(255, 253, 253);
+    opacity: 50%;
+    left: 0px;
+    box-shadow: 5px 5px 9px#000000;
+    text-shadow: 5px 5px 9px#000000;
+   
+}
+
+.div2
+{   position: absolute;
+    background-color: transparent;
+    top:2059px;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+
+
+.pan
+{
+    position:absolute;
+    top:2200px;
+  background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 150px; 
+}
+
+.img8
+{
+    position: absolute;
+    top: 2240px;
+    left: 630px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img8:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img9
+{
+    position: absolute;
+    top: 2240px;
+    left: 690px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img9:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img10
+{
+    position: absolute;
+    top: 2240px;
+    left: 750px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img10:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img11
+{
+    position: absolute;
+    top: 2240px;
+    left: 810px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img11:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img12
+{
+    position: absolute;
+    top: 2240px;
+    left: 870px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img12:hover
+{
+    filter: contrast(175%);
+    transition: 0.3s;
+}
+.img13
+{
+    position: absolute;
+    top: 2290px;
+    left: 710px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+::-webkit-scrollbar{
+	width:7px;
+	background-color:transparent;
+	}
+ 
+::-webkit-scrollbar-track{
+	box-shadow: 0 0 5px rgba(0,233,253,1.00);
+	}
+::-webkit-scrollbar-thumb{
+	background-color:#00ffc3;
+	border-left:2px solid #ffffff;
+    border-radius: 20px;
+
+}
